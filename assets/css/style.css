@@ -37,10 +37,28 @@ main {
     padding: 32px 16px;
     background-color: rgb(26, 29, 118);
 }
+
+/* #region section hero */
 .hero {
     text-align: center;
     padding: 32px;
 }
+.btn {
+    display: block;
+    padding: 18px;
+    margin-bottom: 16px;
+    background-color: rgb(94, 100, 202);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 16px;
+}
+.btn-white {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* #region section featured */
 .card {
     padding: 32px 16px;
 }
