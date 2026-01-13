@@ -21,6 +21,7 @@ h1, h2 {
 }
 p   {
     font-size: 18px;
+    margin-bottom: 16px;
 }
 
 /* #region layout */
@@ -44,7 +45,18 @@ main {
     padding: 32px 16px;
 }
 .card-content {
+    position: relative;
     padding: 96px 32px;
     border-radius: 48px;
     background-color: rgb(94, 100, 202);
+}
+.card-img-thumb {
+    max-width: 128px;
+    position: absolute;
+    top: 0;
+    left: 64px;
+    transform: translate(0, -50%);
+}
+.card-img {
+    border-radius: 32px;
 }
