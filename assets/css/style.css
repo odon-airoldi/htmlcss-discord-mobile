@@ -1,20 +1,22 @@
+/* #region reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* #region general */
 img {
     max-width: 100%;
     height: auto;
     display: block;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Sigmar", sans-serif;
     line-height: 1;
 }
 
+/* #region layout */
 body {
     width: 512px;
     font-family: "DM Sans", sans-serif;
@@ -23,11 +25,8 @@ body {
     font-style: normal;
     color: rgb(255, 255, 255);
 }
-
 header {
-
 }
-
 main {
     background-color: rgb(26, 29, 118);
 }
