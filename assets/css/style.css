@@ -66,14 +66,18 @@ main {
     position: relative;
     padding: 96px 32px;
     border-radius: 48px;
-    background-color: rgb(94, 100, 202);
+    background: linear-gradient(
+        0deg,
+        rgb(85, 95, 220) 0%,
+        rgb(51, 53, 137) 100%
+    );
 }
 .card-img-thumb {
     max-width: 128px;
     position: absolute;
     top: 0;
-    left: 64px;
-    transform: translate(0, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .card-img {
     border-radius: 32px;
