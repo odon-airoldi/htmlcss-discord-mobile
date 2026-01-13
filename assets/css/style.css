@@ -15,6 +15,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Sigmar", sans-serif;
     line-height: 1;
 }
+h1, h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+p   {
+    font-size: 18px;
+}
 
 /* #region layout */
 body {
@@ -25,8 +32,19 @@ body {
     font-style: normal;
     color: rgb(255, 255, 255);
 }
-header {
-}
 main {
+    padding: 32px 16px;
     background-color: rgb(26, 29, 118);
+}
+.hero {
+    text-align: center;
+    padding: 32px;
+}
+.card {
+    padding: 32px 16px;
+}
+.card-content {
+    padding: 96px 32px;
+    border-radius: 48px;
+    background-color: rgb(94, 100, 202);
 }
